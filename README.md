@@ -9,6 +9,7 @@ It will create a new folder in the backup directory with at least the date and t
 It will also add at the end the names of any new imported libraries or defined functions. So if we add a new import or function which is not currently in the backed up directory for that project it will append this to the end of the backup folder's name. This will help us distinguish between backups when major changes happen.
 
 -Configuration in config.py-
+
 workingDirectory - Set the working directory main folder where you are putting your python projects. It will consider each folder in that directory to be a different project to backup. Any file in the root directory will be ignored.
 backupDirectory - Set where all our projects are going to be backed up to.
 verboseLogs - True or False to show or hide print statements if desired.

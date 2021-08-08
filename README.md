@@ -1,5 +1,5 @@
 # AutoHub
-A python project to backup any changes made in your python projects. It will append the noticeable changes (like added def or import) to the backup folder. It also includes the date the newest file was last modified or created.
+A python project to backup any changes made in your python projects locally. It will append the noticeable changes (like added def or import) to the backup folder. It also includes the date the newest file was last modified or created.
 
 The purpose of this is a simple backup process you can add as a cronjob or windows scheduled task to backup however often as you like.\
 It will restrict what is being backed up based on the extension.\
